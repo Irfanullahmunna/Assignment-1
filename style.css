@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: 'Redressed', cursive;
+    background-color: honeydew;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    box-shadow: 2px 2px 10px gray;
+}
+section {
+    height: 600px;
+    padding-bottom: 150px;
+}
+.half {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px gray;
+}
+.image-card:hover {
+    box-shadow: 5px 5px 100px gray;
+    border-radius: circle;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+.link-btn {
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+}
+.link-btn:hover {
+    box-shadow: 2px 2px 20px orange;
+    padding: 20px 40px;
+}
+.orange {
+    color: orange;
+}
+.center-text {
+    text-align: center;
+}
+#bckground-Work-section {
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 10px gray;
+}
+.latestwork {
+    width: 25%;
+    margin-left: 4%;
+    padding-left: 2%;
+    float: left;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.latestwork:hover {
+    box-shadow: 5px 5px 20px white;
+}
+.latestwork img {
+    width: 100%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+style {
+    max-width:500px;
+    margin: auto;
+}
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+.btn 
+{
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+}
+.banner {
+    width: 80%;
+}
+.banner:hover {
+    box-shadow: 5px 5px 100px gray;
+    border-radius: 5px;
+}
+.left {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.right {
+    position: absolute;
+    bottom: 45%;
+    right: 15%;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+  
+.services h1 {
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+  
+.services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+  
+.services__card {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 0.3s ease-in;
+}
+.services__card:nth-child(2) {
+    background: #1fa2ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#a6ffcb,#12d8fa,#1fa2ff);
+    background: linear-gradient(to right,#a6ffcb,#12d8fa,#1fa2ff);
+}
+.services__card:nth-child(3) {
+    background-image: linear-gradient(-225deg,#231557 0%,#44107a 29%,#ff1361 67%,#fff800 100%);
+}
+.services__card h2 {
+     text-align: center;
+}
+.services__card p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+.services__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.services__card button {
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    font-size: 1rem;
+}
+.services__card button:hover {
+    cursor: pointer;
+}
+.services__card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+ }
+ .footer img {
+     padding: 2px;
+ }
